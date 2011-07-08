@@ -1,0 +1,54 @@
+div {
+	border-radius: 10px
+}
+
+#center_content {
+	margin-left: 20%;
+	width:  60%;
+}
+
+#header {
+	color:  #FFFFFF;
+	background-color: #AAAAAA;
+}
+
+.task, #header, .finished_task {
+	border: 1px solid #EFEFEF;
+	padding: 10px;
+	margin-bottom: 2%;
+}
+
+.finished_task {
+	color:  #DDD;
+}
+
+h3 {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+#header span {
+	float:  right;
+	margin-top: 1.3em;
+}
+
+.task span.clock, .finished_task span.clock {
+	float: right;
+}
+
+.task span.control {
+	float: right;
+}
+
+.task span.control img.pause {
+	display: none;
+}
+
+.task:hover, .finished_task:hover {
+	background-color: #EFEFEF;
+	cursor: move;
+}
+
+.task span.control img:hover {
+	cursor: hand;
+}

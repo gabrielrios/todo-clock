@@ -1,0 +1,6 @@
+[paths]
+default = https://gabrielrios@bitbucket.org/gabrielrios/todo_clock
+
+[ui]
+username = Gabriel Rios <gabrielfalcaorios@gmail.com>
+verbose = True
